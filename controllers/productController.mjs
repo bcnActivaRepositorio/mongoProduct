@@ -47,10 +47,10 @@ const updateProduct = async (req, res) => {
             res.status(404).json({ msg: "Product doesn't exist"});
         }
 
-        product.name = name;
+        product.name     = name;
         product.category = category;
-        product.loclocation =location;
-        product.price = price;
+        product.location = location;
+        product.price    = price;
 
         //update
         product = await Product.findOneAndUpdate({ _id: req.params.id}, product, {new: true});
