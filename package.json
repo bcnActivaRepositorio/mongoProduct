@@ -1,0 +1,33 @@
+{
+  "name": "servercliente",
+  "version": "1.0.0",
+  "description": "back-end of project shopping \"cliente\"",
+  "main": "index.mjs",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node --experimental-modules index.mjs"
+  },
+  "keywords": [
+    "mean",
+    "mongoDB",
+    "mongoose",
+    "express",
+    "nodeJs",
+    "angular"
+  ],
+  "author": "Robert Garcia",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "mongoose": "^5.11.15"
+  }
+}
